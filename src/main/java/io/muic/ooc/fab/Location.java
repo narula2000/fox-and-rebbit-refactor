@@ -3,8 +3,8 @@ package io.muic.ooc.fab;
 public class Location {
 
     // Row and column positions.
-    private int row;
-    private int col;
+    private final int row;
+    private final int col;
 
     /**
      * Represent a row and column.

@@ -11,9 +11,10 @@ public class Field {
     private static final Random RANDOM = new Random();
 
     // The depth and width of the field.
-    private int depth, width;
+    private final int depth;
+    private final int width;
     // Storage for the animals.
-    private Object[][] field;
+    private final Object[][] field;
 
     /**
      * Represent a field of the given dimensions.
